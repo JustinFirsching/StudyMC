@@ -1,0 +1,30 @@
+name: "Test Question Set"
+author: "Justin Firsching"
+version: "0.1.0"
+problems:
+  - type: Numeric
+    problemStatement: "What is 2 + 2?"
+    answer: 4
+  - type: Word
+    problemStatement: "What is the Capital of New York?"
+    answer: "Albany"
+    caseSensitive: false
+  - type: TrueFalse
+    problemStatement: "A palindrome is a word that is spelled the same forward and backward."
+    answer: true
+  - type: MultipleChoice
+    problemStatement: "What language is this plugin written in?"
+    choices:
+      - Java
+      - Python
+      - Kotlin
+      - C
+    answer: "Kotlin"
+  - type: MultipleChoice
+    problemStatement: "What editor was used to make this plugin?"
+    choices:
+      - neovim
+      - emac
+      - IntelliJ
+      - VS Code
+    answer: neovim

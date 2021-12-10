@@ -1,0 +1,6 @@
+name: StudyMC
+version: 0.1.0
+author: Justin Firsching
+main: com.justinfirsching.games.minecraft.plugins.studymc.StudyMC
+api-version: 1.17
+
